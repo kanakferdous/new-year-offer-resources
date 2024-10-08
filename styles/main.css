@@ -285,3 +285,40 @@ button {
 .best-offer-small-image {
   margin-top: 43px;
 }
+
+/* Holiday Sale Section */
+.holiday-sale {
+  padding: 60px 0px;
+}
+
+.holiday-sale-heading {
+  margin: 0px 126px;
+}
+
+.holiday-sale-sub-title {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.holiday-sale-title {
+  font-size: 72px;
+  line-height: 1.5;
+  margin: 16px 0px 28px;
+}
+
+.holiday-sale-description {
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(7, 2, 17, 60%);
+}
+
+.holiday-sale-images {
+  margin-top: 64px;
+}
+
+.holiday-sale-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
