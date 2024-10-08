@@ -322,3 +322,50 @@ button {
   height: 100%;
   object-fit: cover;
 }
+
+/* Portfolios Styles */
+.portfolios {
+  padding: 60px 0px;
+}
+
+.portfolio-heading {
+  width: 896px;
+  margin-right: auto;
+}
+
+.portfolio-sub-title {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.portfolio-title {
+  font-size: 48px;
+  line-height: 1.5;
+  margin: 16px 0px 22px;
+}
+
+.portfolio-description {
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(7, 2, 17, 60%);
+}
+
+.portfolio-items {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  width: calc(33.33% - 16px);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
