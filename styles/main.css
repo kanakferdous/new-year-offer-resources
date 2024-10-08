@@ -436,3 +436,75 @@ button {
   border: 0px;
   cursor: pointer;
 }
+
+/* Footer Styles */
+footer {
+  background-color: #070211;
+  padding: 120px 0px;
+}
+
+.contact-infos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 135px 50px 0px;
+}
+
+.contact-infos address {
+  width: 375px;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.contact-infos ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.contact-infos ul li a img {
+  margin-right: 10px;
+}
+
+.social-icons {
+  padding: 50px 0px;
+}
+
+.social-icons ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-icons ul a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright-text {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.copyright a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 24px;
+  line-height: 1.5;
+}
